@@ -13,7 +13,6 @@
 
 $query  = "SELECT Uni_id, Name, location
   FROM University";
-";
 
 $result = pg_query($query) or die("Query failed:".pg_last_error());
 
