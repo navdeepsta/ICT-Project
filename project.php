@@ -33,14 +33,6 @@ pg_free_result($result);
 pg_close($con);
 
 ?>
-
-
-
-
-
-
-
-
 </body>
-</title>
+
 </html>
