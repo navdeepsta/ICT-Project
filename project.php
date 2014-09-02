@@ -14,7 +14,7 @@
 $query  = "SELECT Uni_id, Name, location
   FROM University";
 
-$result = pg_query($query) or die("Query failed:".pg_last_error());
+$result = pg_query($con,$query) or die("Query failed:".pg_last_error());
 
 echo "<table>\n";
 
